@@ -10,7 +10,7 @@ type englishBot struct{}
 type spanishBot struct{}
 
 func main() {
-	eb := englishBot{}
+	var eb bot = englishBot{}
 	sb := spanishBot{}
 
 	printGreeting(eb)
